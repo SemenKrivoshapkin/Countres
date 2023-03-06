@@ -1,0 +1,40 @@
+@media only screen and (max-width: 375px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    .navigation {
+        height: 100px;
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .preloading {
+        position: static;
+    }
+    
+    .container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    a {
+        width: 100%;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+}

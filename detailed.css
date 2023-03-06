@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    color: hsl(200, 15%, 8%);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.dark header {
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+}
+
+.theme-btn {
+    background: none;
+    border: none;
+}
+
+.dark .theme-btn {
+    background: none;
+    color: white;
+}
+
+.theme-icon-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.theme-icon-btn-img {
+    background-color: none;
+}
+
+.dark .theme-icon-btn-img {
+    background-color: none;
+    color: white;
+}
+
+main {
+    background-color: hsl(0, 0%, 98%);
+    padding: 40px;
+    height: 100%;
+}
+
+.dark main {
+    background-color: hsl(207, 26%, 17%);
+}
+
+.preloading {
+    position: relative;
+    left: 35vw;
+    font-size: 60px;
+    color: black;
+}
+
+.dark .preloading {
+    color: white;
+}
+
+a {
+    width: 100%;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.back {
+    width: 70px;
+    height: 30px;
+    padding: 0 8px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    background-color: white;
+}
+
+.contry-btn {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    padding: 0 8px;
+    margin: 5px 3px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.contry-btn .tooltiptext {
+    top: -120px;
+    visibility: hidden;
+    width: 120px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, .2);
+    z-index: 2;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.dark .contry-btn .tooltiptext {
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+}
+
+.contry-btn:hover .tooltiptext {
+    visibility: visible;
+}
+
+.dark .back, .dark .contry-btn {
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+}
+
+.country-details {
+    margin-top: 45px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.card img {
+    width: 400px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, .2);
+}
+
+.discription {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    color: hsl(200, 15%, 8%);
+}
+
+.dark .discription {
+    color: white;
+}
+
+.discription h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.discription p {
+    margin: 5px 0;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.information p {
+    margin-left: 7px;
+}
+
+.information-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.information-right {
+    margin-left: 30px;
+}
+
+.btn-container {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
